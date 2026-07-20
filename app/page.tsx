@@ -35,7 +35,7 @@ const BANK_ACCOUNTS: BankAccount[] = [
   {
     id: 'bac-usd',
     bankName: 'BAC Credomatic',
-    accountNumber: '7420-1983-102',
+    accountNumber: 'xxxxxxxxx',
     accountType: { es: 'Cuenta Corriente', en: 'Checking Account' },
     holder: 'Roatan Self Storage S. de R.L.',
     rtn: '11019012345678',
@@ -44,7 +44,7 @@ const BANK_ACCOUNTS: BankAccount[] = [
   {
     id: 'atlantida-hnl',
     bankName: 'Banco Atlántida',
-    accountNumber: '120-203-4981-99',
+    accountNumber: 'xxxxxxxxxx',
     accountType: { es: 'Cuenta de Cheques', en: 'Checking Account' },
     holder: 'Roatan Self Storage S. de R.L.',
     rtn: '11019012345678',
@@ -53,7 +53,7 @@ const BANK_ACCOUNTS: BankAccount[] = [
   {
     id: 'ficohsa-hnl',
     bankName: 'Banco Ficohsa',
-    accountNumber: '001-201-0998-34',
+    accountNumber: 'xxxxxxxxxx',
     accountType: { es: 'Cuenta Corriente', en: 'Checking Account' },
     holder: 'Roatan Self Storage S. de R.L.',
     rtn: '11019012345678',
@@ -183,7 +183,7 @@ const TRANSLATIONS = {
     // Modal
     modalHeader: "Enter Cashier Token",
     modalLabel: "Security Token Code",
-    modalPlaceholder: "E.g., ROT-CASH-101",
+    modalPlaceholder: "E.g., xxxxxx",
     modalBtnCancel: "Close",
     modalBtnValidate: "Confirm Payment",
     modalError: "The entered token is invalid. Make sure it starts with 'ROT-' or has at least 6 characters.",
