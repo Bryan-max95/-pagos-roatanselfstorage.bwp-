@@ -17,6 +17,16 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/**', // This allows any path under the hostname
       },
+      {
+        protocol: 'https',
+        hostname: 'cdn.simpleicons.org',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.baccredomatic.com',
+        pathname: '/**',
+      },
     ],
   },
   output: 'standalone',
